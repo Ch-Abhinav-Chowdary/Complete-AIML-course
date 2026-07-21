@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="#fdfcf8"/>
+  <text x="450" y="40" text-anchor="middle" font-size="24" font-family="Arial" font-weight="bold" fill="#1f2937">K-Means Clustering</text>
+
+  <circle cx="180" cy="180" r="8" fill="#ef4444"/>
+  <circle cx="220" cy="155" r="8" fill="#ef4444"/>
+  <circle cx="245" cy="205" r="8" fill="#ef4444"/>
+  <circle cx="300" cy="175" r="8" fill="#ef4444"/>
+  <circle cx="600" cy="180" r="8" fill="#3b82f6"/>
+  <circle cx="645" cy="160" r="8" fill="#3b82f6"/>
+  <circle cx="670" cy="210" r="8" fill="#3b82f6"/>
+  <circle cx="715" cy="185" r="8" fill="#3b82f6"/>
+
+  <circle cx="240" cy="275" r="32" fill="none" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="660" cy="275" r="32" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <text x="240" y="280" text-anchor="middle" font-size="18" font-family="Arial" fill="#b91c1c">Centroid 1</text>
+  <text x="660" y="280" text-anchor="middle" font-size="18" font-family="Arial" fill="#1d4ed8">Centroid 2</text>
+
+  <text x="450" y="360" text-anchor="middle" font-size="16" font-family="Arial" fill="#374151">Points are assigned to the nearest centroid, and centroids are updated repeatedly.</text>
+</svg>

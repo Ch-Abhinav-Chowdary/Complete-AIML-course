@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <rect width="1000" height="500" fill="#f0fdf4"/>
+  <rect x="40" y="70" width="150" height="90" rx="16" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+  <text x="115" y="112" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">1. Collect</text>
+  <text x="115" y="138" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Text / data</text>
+
+  <rect x="240" y="70" width="150" height="90" rx="16" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+  <text x="315" y="112" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">2. Clean</text>
+  <text x="315" y="138" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Lowercase, remove noise</text>
+
+  <rect x="440" y="70" width="150" height="90" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+  <text x="515" y="112" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">3. Tokenize</text>
+  <text x="515" y="138" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Words / sentences</text>
+
+  <rect x="640" y="70" width="150" height="90" rx="16" fill="#ffffff" stroke="#9333ea" stroke-width="3"/>
+  <text x="715" y="112" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">4. Vectorize</text>
+  <text x="715" y="138" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Numbers</text>
+
+  <rect x="840" y="70" width="120" height="90" rx="16" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+  <text x="900" y="112" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">5. Model</text>
+  <text x="900" y="138" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Train / predict</text>
+
+  <path d="M190 115 L240 115" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M390 115 L440 115" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M590 115 L640 115" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M790 115 L840 115" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <rect x="180" y="250" width="640" height="120" rx="16" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/>
+  <text x="500" y="292" text-anchor="middle" font-size="24" font-family="Segoe UI, Arial" fill="#065f46">Clean text first, or your model learns garbage dressed as insight.</text>
+  <text x="500" y="325" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#047857">Bad preprocessing = bad predictions. The model is innocent; the data is the villain.</text>
+</svg>

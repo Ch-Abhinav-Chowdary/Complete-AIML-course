@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+  <rect width="900" height="430" fill="#fdf2f8"/>
+  <rect x="50" y="80" width="180" height="110" rx="16" fill="#ffffff" stroke="#db2777" stroke-width="3"/>
+  <text x="140" y="125" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Dataset</text>
+  <text x="140" y="155" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Text + emotion</text>
+
+  <rect x="280" y="80" width="180" height="110" rx="16" fill="#ffffff" stroke="#7c3aed" stroke-width="3"/>
+  <text x="370" y="125" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Preprocess</text>
+  <text x="370" y="155" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Lowercase, clean, remove stopwords</text>
+
+  <rect x="510" y="80" width="180" height="110" rx="16" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+  <text x="600" y="125" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Train Model</text>
+  <text x="600" y="155" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Classify emotion</text>
+
+  <rect x="740" y="80" width="120" height="110" rx="16" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+  <text x="800" y="125" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Output</text>
+  <text x="800" y="155" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Happy / Sad / Angry</text>
+
+  <path d="M230 135 L280 135" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M460 135 L510 135" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M690 135 L740 135" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <rect x="140" y="250" width="620" height="115" rx="16" fill="#fdf2f8" stroke="#f472b6" stroke-width="2"/>
+  <text x="450" y="292" text-anchor="middle" font-size="24" font-family="Segoe UI, Arial" fill="#831843">This project turns messy emotional text into a useful classifier.</text>
+  <text x="450" y="325" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#be185d">The model learns patterns, not feelings. It cannot feel sad, but it can learn the word patterns that usually signal sadness.</text>
+</svg>

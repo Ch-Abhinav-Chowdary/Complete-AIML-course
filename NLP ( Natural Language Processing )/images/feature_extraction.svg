@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="#fff7ed"/>
+  <rect x="40" y="80" width="180" height="120" rx="16" fill="#ffffff" stroke="#f97316" stroke-width="3"/>
+  <text x="130" y="135" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Raw Text</text>
+  <text x="130" y="165" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">"I love NLP"</text>
+
+  <rect x="260" y="80" width="180" height="120" rx="16" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+  <text x="350" y="135" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Tokenize</text>
+  <text x="350" y="165" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">[I, love, NLP]</text>
+
+  <rect x="480" y="80" width="180" height="120" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+  <text x="570" y="135" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Vectorize</text>
+  <text x="570" y="165" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Bag-of-Words / TF-IDF</text>
+
+  <rect x="700" y="80" width="160" height="120" rx="16" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+  <text x="780" y="135" text-anchor="middle" font-size="22" font-family="Segoe UI, Arial" fill="#111827">Model</text>
+  <text x="780" y="165" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#6b7280">Prediction</text>
+
+  <path d="M220 140 L260 140" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M440 140 L480 140" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M660 140 L700 140" stroke="#4b5563" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <rect x="140" y="260" width="620" height="100" rx="16" fill="#ffedd5" stroke="#fb923c" stroke-width="2"/>
+  <text x="450" y="300" text-anchor="middle" font-size="24" font-family="Segoe UI, Arial" fill="#9a2c00">Text must become numbers before a model can learn anything.</text>
+  <text x="450" y="330" text-anchor="middle" font-size="18" font-family="Segoe UI, Arial" fill="#c2410c">Because a model cannot read words like a human. It only sees numbers.</text>
+</svg>

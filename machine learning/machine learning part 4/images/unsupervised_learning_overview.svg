@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="#f8fbff"/>
+  <text x="450" y="45" text-anchor="middle" font-size="24" font-family="Arial" font-weight="bold" fill="#1f2937">Unsupervised Learning Idea</text>
+
+  <rect x="80" y="90" width="320" height="250" rx="16" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="240" y="125" text-anchor="middle" font-size="20" font-family="Arial" font-weight="bold" fill="#2563eb">Supervised Learning</text>
+  <text x="240" y="155" text-anchor="middle" font-size="14" font-family="Arial" fill="#374151">Input data with labels</text>
+  <circle cx="150" cy="210" r="10" fill="#ef4444"/>
+  <circle cx="190" cy="235" r="10" fill="#ef4444"/>
+  <circle cx="215" cy="190" r="10" fill="#ef4444"/>
+  <circle cx="270" cy="220" r="10" fill="#3b82f6"/>
+  <circle cx="300" cy="245" r="10" fill="#3b82f6"/>
+  <circle cx="330" cy="205" r="10" fill="#3b82f6"/>
+  <text x="240" y="292" text-anchor="middle" font-size="14" font-family="Arial" fill="#374151">The model learns from known answers</text>
+
+  <rect x="500" y="90" width="320" height="250" rx="16" fill="#ffffff" stroke="#86efac" stroke-width="2"/>
+  <text x="660" y="125" text-anchor="middle" font-size="20" font-family="Arial" font-weight="bold" fill="#16a34a">Unsupervised Learning</text>
+  <text x="660" y="155" text-anchor="middle" font-size="14" font-family="Arial" fill="#374151">Input data without labels</text>
+  <circle cx="560" cy="205" r="10" fill="#22c55e"/>
+  <circle cx="590" cy="225" r="10" fill="#22c55e"/>
+  <circle cx="620" cy="190" r="10" fill="#22c55e"/>
+  <circle cx="710" cy="210" r="10" fill="#f59e0b"/>
+  <circle cx="740" cy="235" r="10" fill="#f59e0b"/>
+  <circle cx="770" cy="200" r="10" fill="#f59e0b"/>
+  <circle cx="640" cy="255" r="10" fill="#8b5cf6"/>
+  <circle cx="675" cy="275" r="10" fill="#8b5cf6"/>
+  <circle cx="705" cy="245" r="10" fill="#8b5cf6"/>
+  <text x="660" y="292" text-anchor="middle" font-size="14" font-family="Arial" fill="#374151">The model finds hidden groups and patterns</text>
+
+  <text x="450" y="380" text-anchor="middle" font-size="16" font-family="Arial" fill="#374151">The model looks for structure without being told the correct answer.</text>
+</svg>
