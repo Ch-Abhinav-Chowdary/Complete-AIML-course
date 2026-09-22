@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260">
+  <rect width="760" height="260" fill="#f8fafc"/>
+  <text x="380" y="30" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#1f2937">Gradient Descent</text>
+
+  <path d="M 90 200 Q 210 180, 300 140 T 560 120 T 690 85" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M 90 200 Q 210 180, 300 140 T 560 120 T 690 85" fill="none" stroke="#2563eb" stroke-width="4" stroke-dasharray="10 8" opacity="0.4"/>
+
+  <circle cx="90" cy="200" r="8" fill="#dc2626"/>
+  <circle cx="300" cy="140" r="8" fill="#16a34a"/>
+  <circle cx="560" cy="120" r="8" fill="#d97706"/>
+  <circle cx="690" cy="85" r="8" fill="#7c3aed"/>
+
+  <g font-family="Arial" font-size="15" fill="#1f2937">
+    <text x="60" y="220">Start</text>
+    <text x="270" y="160">Step 1</text>
+    <text x="520" y="140">Step 2</text>
+    <text x="650" y="104">Lowest point</text>
+  </g>
+
+  <g font-family="Arial" font-size="13" fill="#374151">
+    <text x="250" y="80">Move down</text>
+    <text x="480" y="60">Update weights</text>
+  </g>
+</svg>
