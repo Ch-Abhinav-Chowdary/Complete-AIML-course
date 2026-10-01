@@ -44,7 +44,10 @@ This repository is a structured learning space for data science, machine learnin
   - Neural network basics, forward and backward propagation, and activation functions
   - Practical neural network examples, loss functions, and optimizers
   - An Iris classification project using a Perceptron and an artificial neural network
-- Deep Learning Part 2 is present but does not contain notebooks yet.
+- [Deep Learning Part 2](Deep%20Learning/Deep%20Learning%20Part%202)
+  - Introduction to deep learning, CNNs, and image processing
+  - A practical image-classification project using MNIST
+  - The project loads MNIST through `tf.keras.datasets.mnist`; Keras downloads it on first run, so the large `mnist_train.csv` file is not required or included in this repository.
 
 ### Natural Language Processing
 
@@ -71,8 +74,9 @@ This repository is a structured learning space for data science, machine learnin
 3. Study [machine learning/machine learning part 3](machine%20learning/machine%20learning%20part%203) for classification algorithms
 4. Continue with [machine learning/machine learning part 4](machine%20learning/machine%20learning%20part%204) for advanced ML concepts
 5. Explore [Deep Learning Part 1](Deep%20Learning/Deep%20Learning%20Part%201) to study neural networks and build an ANN classifier
-6. Follow the [NLP notebooks](NLP%20%28%20Natural%20Language%20Processing%20%29) to learn text processing and feature extraction
-7. Practice statistics and visualization notebooks to strengthen your understanding
+6. Continue with [Deep Learning Part 2](Deep%20Learning/Deep%20Learning%20Part%202) for CNNs and image classification
+7. Follow the [NLP notebooks](NLP%20%28%20Natural%20Language%20Processing%20%29) to learn text processing and feature extraction
+8. Practice statistics and visualization notebooks to strengthen your understanding
 
 ## Important notebooks
 
@@ -107,6 +111,10 @@ This repository is a structured learning space for data science, machine learnin
 - [Loss Functions](Deep%20Learning/Deep%20Learning%20Part%201/5_Loss_Functions.ipynb)
 - [Optimizers](Deep%20Learning/Deep%20Learning%20Part%201/6_Optimizers.ipynb)
 - [ANN Project: Iris Classification](Deep%20Learning/Deep%20Learning%20Part%201/7_ANN_Project.ipynb)
+- [Introduction](Deep%20Learning/Deep%20Learning%20Part%202/1_Introduction.ipynb)
+- [Convolutional Neural Networks](Deep%20Learning/Deep%20Learning%20Part%202/2_CNN.ipynb)
+- [Image Processing](Deep%20Learning/Deep%20Learning%20Part%202/3_Image.ipynb)
+- [MNIST Image Classification Project](Deep%20Learning/Deep%20Learning%20Part%202/4_Project.ipynb)
 
 ### Natural Language Processing
 - [NLP Basics](NLP%20%28%20Natural%20Language%20Processing%20%29/1_Basics.ipynb)
